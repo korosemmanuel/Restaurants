@@ -2,7 +2,7 @@ const express= require('express');
 const mongoose= require('mongoose');
 const app = express();
 
-const uri="mongodb+srv://emmanuelkoros:E37849323k@cluster0.bbuiewe.mongodb.net/?retryWrites=true&w=majority"
+const uri="mongodb+srv://emmanuelkoros:E37849323k@cluster0.bbuiewe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 async function connect(){
  try{
